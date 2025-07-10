@@ -25,3 +25,17 @@ This dataset contains anonymized credit card transactions made by European cardh
 - Use Isolation Forest to learn the pattern of normal transactions and flag potential outliers.
 - Evaluate model performance using ROC-AUC, confusion matrix, and precision-recall metrics.
 
+## Tools & Technologies
+
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+
+## Key Steps
+
+### 1. Data Exploration & Preprocessing
+- Visualized class imbalance and feature distributions
+- Scaled Amount and Time using StandardScaler
+- Verified dataset had no missing values
+
