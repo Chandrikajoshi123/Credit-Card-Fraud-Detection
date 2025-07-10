@@ -39,3 +39,16 @@ This dataset contains anonymized credit card transactions made by European cardh
 - Scaled Amount and Time using StandardScaler
 - Verified dataset had no missing values
 
+### 2. Model Training
+- Used IsolationForest from scikit-learn with:
+- contamination ≈ fraud ratio (0.0017)
+- n_estimators = 100, max_samples = 'auto'
+- Predicted anomalies and mapped them to fraud labels
+
+## Results
+
+| Metric |	Value |
+| ROC-AUC	  |~0.96  |
+Fraud Ratio|	0.17%
+Algorithm Used	| Isolation Forest (unsupervised)
+Model Type	Anomaly Detection
