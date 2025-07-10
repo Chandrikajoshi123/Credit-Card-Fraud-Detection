@@ -53,3 +53,24 @@ This dataset contains anonymized credit card transactions made by European cardh
 |Fraud Ratio|	0.17% |
 | Algorithm Used	| Isolation Forest (unsupervised)|
 |Model Type	| Anomaly Detection|
+
+## Visualizations:
+
+- Class distribution plot
+- Correlation heatmap
+- ROC-AUC curve
+- Confusion matrix
+
+## Why Isolation Forest?
+
+- Efficient on large datasets
+- Handles high-dimensional data well
+- No need for labeled training data (ideal for rare-event detection)
+- Based on random partitioning of data — outliers require fewer splits to isolate
+
+## Future Improvements
+
+- Compare with other anomaly detectors (One-Class SVM, Autoencoders)
+- Use feature engineering on Time (e.g., transaction hour)
+- Build a simple Flask or Streamlit dashboard for real-time scoring
+  
