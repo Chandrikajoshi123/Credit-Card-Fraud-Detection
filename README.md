@@ -1,4 +1,5 @@
 # Credit Card Fraud Detection using Isolation Forest
+
 ## Overview
 Credit card fraud detection is a crucial application of machine learning due to the massive volume of daily transactions and the significant financial loss caused by fraud. This project applies an unsupervised learning technique — Isolation Forest — to detect fraudulent transactions from anonymized credit card data.
 Despite the high class imbalance (fraud cases make up just 0.17%), the model achieves a strong performance with ROC-AUC ≈ 0.96, demonstrating its ability to flag anomalies effectively without supervision.
@@ -18,7 +19,9 @@ Despite the high class imbalance (fraud cases make up just 0.17%), the model ach
     
 This dataset contains anonymized credit card transactions made by European cardholders in 2013.
 
-## 📂 Structure:
-fraud_detection/<br>
-├── fraud_detect.py<br>
-├── creditcard.csv<br>
+## Objectives
+
+- Handle highly imbalanced classification using unsupervised anomaly detection.
+- Use Isolation Forest to learn the pattern of normal transactions and flag potential outliers.
+- Evaluate model performance using ROC-AUC, confusion matrix, and precision-recall metrics.
+
