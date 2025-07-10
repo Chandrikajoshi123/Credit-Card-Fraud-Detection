@@ -10,6 +10,16 @@ Despite the high class imbalance (fraud cases make up just 0.17%), the model ach
 - 🧠 Task: Detect fraudulent transactions (unsupervised anomaly detection)
 - ⚙ Tools: Python, Scikit-learn, IsolationForest
 
+
+Dataset
+
+- Source: Kaggle – Credit Card Fraud Detection
+- Size: 284,807 transactions
+- Features:
+  - PCA-transformed features (V1 to V28)
+  - Time and Amount (scaled)
+  - Class: 0 = Legitimate, 1 = Fraud
+
 ## 📂 Structure:
 fraud_detection/<br>
 ├── fraud_detect.py<br>
