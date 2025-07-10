@@ -48,7 +48,8 @@ This dataset contains anonymized credit card transactions made by European cardh
 ## Results
 
 | Metric |	Value |
+| ------ | ------ |
 | ROC-AUC	  |~0.96  |
-Fraud Ratio|	0.17%
-Algorithm Used	| Isolation Forest (unsupervised)
-Model Type	Anomaly Detection
+|Fraud Ratio|	0.17% |
+| Algorithm Used	| Isolation Forest (unsupervised)|
+|Model Type	| Anomaly Detection|
