@@ -1,4 +1,4 @@
-# Credit-Card-Fraud-Detection
+# Credit Card Fraud Detection using Isolation Forest
 
 ![image](https://github.com/user-attachments/assets/8a698bb5-d288-4b9c-9626-1bdd3fc53db1)
 
