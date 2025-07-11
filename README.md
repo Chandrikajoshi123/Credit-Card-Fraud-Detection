@@ -21,11 +21,15 @@ Credit card fraud detection is a crucial application of machine learning due to 
  
 This dataset contains anonymized credit card transactions made by European cardholders in 2013.
 
+**Note**: Fraud cases account for only **0.17%** of the data — creating a highly imbalanced classification challenge.
+
+
 ## Objectives
 
-- Handle highly imbalanced classification using unsupervised anomaly detection.
-- Use Isolation Forest to learn the pattern of normal transactions and flag potential outliers.
-- Evaluate model performance using ROC-AUC, confusion matrix, and precision-recall metrics.
+Build models that can accurately **identify fraudulent transactions** despite:
+- Extreme **class imbalance**
+- **Unclear fraud patterns** due to anonymized features
+- **Very limited fraud examples** to learn from
 
 ## Tools & Technologies
 
