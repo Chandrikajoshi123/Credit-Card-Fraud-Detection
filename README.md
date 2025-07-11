@@ -91,3 +91,4 @@ Made with ❤️ using:
 <p align="center"> <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg" alt="Streamlit" height="40"/> </p>
 
 ----
+## App Link: [🔗](https://fraudetecti.streamlit.app/)
