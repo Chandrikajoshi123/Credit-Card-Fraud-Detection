@@ -1,11 +1,9 @@
-# Credit Card Fraud Detection using Isolation Forest
+# Credit Card Fraud Detection 
 
 ## Overview
 Credit card fraud detection is a crucial application of machine learning due to the massive volume of daily transactions and the significant financial loss caused by fraud. This project applies An end-to-end machine learning techniques to detect fraudulent credit card transactions using both **unsupervised anomaly detection** (Isolation Forest) and **supervised classifiers** (Random Forest & XGBoost). The project emphasizes real-world class imbalance handling, anomaly detection, model evaluation, and performance trade-offs.
 
 
-
-![Cartoon thief stock vector_ Illustration of escape, bank - 31717335](https://github.com/user-attachments/assets/49bf28f9-abe8-4c6a-9535-8625335c88c3)
 
 
 
