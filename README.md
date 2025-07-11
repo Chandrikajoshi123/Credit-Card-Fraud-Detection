@@ -14,10 +14,11 @@ Credit card fraud detection is a crucial application of machine learning due to 
 - Source: Kaggle – Credit Card Fraud Detection
 - Size: 284,807 transactions
 - Features:
-  - PCA-transformed features (V1 to V28)
-  - Time and Amount (scaled)
-  - Class: 0 = Legitimate, 1 = Fraud
-    
+  - PCA-transformed features (`V1` to `V28`)
+  - `Time`, `Amount` (transaction context)
+  - `Class`: target variable( 0 = Legitimate, 1 = Fraud)
+   
+ 
 This dataset contains anonymized credit card transactions made by European cardholders in 2013.
 
 ## Objectives
