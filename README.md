@@ -40,16 +40,35 @@ Build models that can accurately **identify fraudulent transactions** despite:
 
 ## Key Steps
 
-### 1. Data Exploration & Preprocessing
-- Visualized class imbalance and feature distributions
-- Scaled Amount and Time using StandardScaler
-- Verified dataset had no missing values
+###  1. Exploratory Data Analysis (EDA)
+- Verified no missing values
+- Detected severe class imbalance
+- Scaled `Amount` and `Time` using `StandardScaler`
 
-### 2. Model Training
-- Used IsolationForest from scikit-learn with:
-- contamination ≈ fraud ratio (0.0017)
-- n_estimators = 100, max_samples = 'auto'
-- Predicted anomalies and mapped them to fraud labels
+###  2. Models Implemented
+
+#### **Isolation Forest (Unsupervised)**
+- Detects anomalies without labels
+- Tuned `contamination` to reflect true fraud rate
+- Resulted in **low precision**, high false positives
+- Best used for novelty detection — but struggled here due to subtle fraud patterns
+
+####  **Random Forest (Supervised)**
+- Balanced using SMOTE (Synthetic Minority Oversampling Technique)
+- Achieved strong recall and accuracy
+- Performance:
+  - **Recall (Fraud)**: 0.78
+  - **ROC-AUC**: 0.89
+ 
+####  **XGBoost Classifier (Supervised)**
+- Tuned with class weighting and SMOTE
+- Outperformed all other models
+- Performance:
+  - **Precision (Fraud)**: 0.76
+  - **Recall (Fraud)**: 0.80
+  - **F1-Score (Fraud)**: 0.78
+  - **ROC-AUC**: 0.97 ✅
+
 
 ## Results
 
