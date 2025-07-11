@@ -73,14 +73,13 @@ Build models that can accurately **identify fraudulent transactions** despite:
 - Showcases a model-stacking approach to fraud detection
 
 
-## Results
+## Model Comparison
 
-| Metric |	Value |
-| ------ | ------ |
-| ROC-AUC	  |~0.96  |
-|Fraud Ratio|	0.17% |
-| Algorithm Used	| Isolation Forest (unsupervised)|
-|Model Type	| Anomaly Detection|
+| Model              | Precision (Fraud) | Recall (Fraud) | F1-score | ROC-AUC |
+|-------------------|-------------------|----------------|----------|---------|
+| Isolation Forest   | 0.07–0.30         | 0.29–0.71      | Low      | 0.05–0.65 |
+| Random Forest      | 0.89              | 0.78           | 0.83     | 0.89    |
+| **XGBoost**        | **0.76**          | **0.80**       | **0.78** | **0.97** ✅ |
 
 ## Visualizations:
 
