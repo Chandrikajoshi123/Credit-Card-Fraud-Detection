@@ -83,6 +83,6 @@ Build models that can accurately **identify fraudulent transactions** despite:
 
 ## Future Improvements
 
-Integrate time-series modeling (LSTM, RNN) to capture sequential fraud patterns.
-Deploy model using Streamlit or Flask as a demo dashboard.
-Experiment with autoencoders for deeper anomaly detection.
+- Integrate time-series modeling (LSTM, RNN) to capture sequential fraud patterns.
+- Deploy model using Streamlit or Flask as a demo dashboard.
+- Experiment with autoencoders for deeper anomaly detection.
