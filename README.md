@@ -66,6 +66,11 @@ Build models that can accurately **identify fraudulent transactions** despite:
   - **Recall (Fraud)**: 0.80
   - **F1-Score (Fraud)**: 0.78
   - **ROC-AUC**: 0.97 ✅
+    
+### 3. Hybrid Model
+- Used **Isolation Forest anomaly scores as input features** to XGBoost
+- Helped slightly improve recall
+- Showcases a model-stacking approach to fraud detection
 
 
 ## Results
