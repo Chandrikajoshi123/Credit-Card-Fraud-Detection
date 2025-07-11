@@ -81,23 +81,8 @@ Build models that can accurately **identify fraudulent transactions** despite:
 | Random Forest      | 0.89              | 0.78           | 0.83     | 0.89    |
 | **XGBoost**        | **0.76**          | **0.80**       | **0.78** | **0.97** ✅ |
 
-## Visualizations:
-
-- Class distribution plot
-- Correlation heatmap
-- ROC-AUC curve
-- Confusion matrix
-
-## Why Isolation Forest?
-
-- Efficient on large datasets
-- Handles high-dimensional data well
-- No need for labeled training data (ideal for rare-event detection)
-- Based on random partitioning of data — outliers require fewer splits to isolate
-
 ## Future Improvements
 
-- Compare with other anomaly detectors (One-Class SVM, Autoencoders)
-- Use feature engineering on Time (e.g., transaction hour)
-- Build a simple Flask or Streamlit dashboard for real-time scoring
-  
+Integrate time-series modeling (LSTM, RNN) to capture sequential fraud patterns.
+Deploy model using Streamlit or Flask as a demo dashboard.
+Experiment with autoencoders for deeper anomaly detection.
